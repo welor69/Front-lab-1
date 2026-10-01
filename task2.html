@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-form">
+
+  <main>
+    <h1>Registration</h1>
+
+    <form action="#" method="post">
+      <p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </p>
+
+      <p>
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </p>
+
+      <p>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+      </p>
+
+      <p>
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="">Select language</option>
+          <option value="kg">Kyrgyzstan</option>
+          <option value="kz">Kazakhstan</option>
+          <option value="ru">Russia</option>
+          <option value="uz">Uzbekistan</option>
+        </select>
+      </p>
+
+      <p class="agree">
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree to the privacy policy</label>
+      </p>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+</body>
+</html>

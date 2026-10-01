@@ -1,0 +1,177 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f5f6fa;
+  line-height: 1.5;
+}
+.page-about header {
+  background: #2d3a8c;
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+}
+
+.page-about nav ul {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.page-about nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-about nav a:hover {
+  text-decoration: underline;
+}
+
+.page-about main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page-about section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.page-about figure {
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+.page-about figure img
+
+.page-about figcaption {
+  font-size: 14px;
+  color: #777;
+}
+
+.page-about footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-about footer a {
+  color: #8fb3ff;
+}
+
+
+.page-form main {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-form h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.page-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.page-form input[type="text"],
+.page-form input[type="email"],
+.page-form input[type="password"],
+.page-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.page-form .agree label {
+  display: inline;
+  font-weight: normal;
+}
+
+.page-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #2d3a8c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.page-form button:hover {
+  background: #1f2a66;
+}
+
+.page-shop {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin: 12px 0 4px;
+  font-size: 20px;
+}
+
+.card .price {
+  margin: 0 0 12px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2d3a8c;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2d3a8c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #e67e22;
+}
